@@ -1,0 +1,10 @@
+{
+    "name": "NoYoutubeShorts",
+    "description": "i hate youtube shorts",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "js": ["src/script.js"],
+        "matches": ["<all_urls>"]
+    }]
+}
