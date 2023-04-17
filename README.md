@@ -4,3 +4,5 @@
 ### Features
 - [x] Redirect when clicked on a Youtube Short
 - [x] Automatically enable looping
+
+Note: It loops on all videos, not just shorts, so if you find out how to fix this, please make a pull request
