@@ -3,4 +3,4 @@
 
 ### Features
 - [x] Redirect when clicked on a Youtube Short
-- [ ] Automatically enable looping
+- [x] Automatically enable looping

@@ -4,7 +4,8 @@
     "version": "1.0",
     "manifest_version": 3,
     "content_scripts": [{
-        "js": ["src/script.js"],
-        "matches": ["<all_urls>"]
+        "run_at": "document_end",
+        "js": ["src/script.js", "src/loop.js"],
+        "matches": ["*://www.youtube.com/*","*://www.youtu.be/*"]
     }]
 }

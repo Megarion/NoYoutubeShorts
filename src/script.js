@@ -1,4 +1,4 @@
-let lastUrl = location.href; 
+let lastUrl = location.href;
 new MutationObserver(() => {
     const url = location.href;
     if (url !== lastUrl) {
@@ -18,7 +18,6 @@ function autoRedirect(){
 
 function start(){
     if (lastUrl.startsWith("https://www.youtube.com/shorts")) {
-        clearInterval(check);
         autoRedirect();
     }
 }
